@@ -1,0 +1,19 @@
+.pageHeader{
+    text-align: center;
+    font-size: large;
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.shop{
+    
+    border: 1px dotted;
+    padding: 1em;
+    margin: 0.5em;
+    flex-basis: 16%; /* Make each child element the same width */
+}
